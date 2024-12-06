@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="form-container">
+        <h2>Login</h2>
+        <form action="LoginController" method="post">
+            <label for="email">ID/Email</label>
+            <input type="email" id="email" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="password" id="password" name="password" required>
+            
+            <input id="submitButton" type="submit" name="role" value="Admin Login">
+            <input id="submitButton" type="submit" name="role" value="Customer Login">
+        </form> 
+        <br>
+         <a style="margin-left: 15%" href='index.html'>Click to Register New Admin</a>
+    </div>
+</body>
+</html>

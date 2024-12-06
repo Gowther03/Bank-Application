@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Registration Form</title>
+</head>
+<body>
+<div class="form-container">
+        <h2>Register</h2>
+        <form action="AdminFeeder" method="post">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Admin Email</label>
+            <input type="email" id="email" name="username" required>
+
+            <label for="password">Password</label>
+            <input type="text" id="password" name="password" required>
+
+            <input id="submitButton" type="submit" value="Register">
+			<input id="loginButton" type="button" value="Login" onclick="window.location.href='login.html'">
+        </form>
+    </div>
+</body>
+</html>
