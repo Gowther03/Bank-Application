@@ -14,34 +14,10 @@ Deposits and Withdrawals. ✏️ Update Profile Details. 🔍 View Account
 Balances.
 
 🔐 Login
+https://private-user-images.githubusercontent.com/92570822/393475089-a46a1a1d-4c5d-4122-8851-8a97f226a641.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MzM1NTAxNzQsIm5iZiI6MTczMzU0OTg3NCwicGF0aCI6Ii85MjU3MDgyMi8zOTM0NzUwODktYTQ2YTFhMWQtNGM1ZC00MTIyLTg4NTEtOGE5N2YyMjZhNjQxLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDEyMDclMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQxMjA3VDA1Mzc1NFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWNiZWZmYzEzMzRlMTYxZWUwN2IwZWVjMzg1NGFlODBlNDQxMTQwM2M1YWI4NDU1ZmU0OGUzZDllNTYwZDQ4NmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.qJOi-jYa4svehbmpPxr7i9CdxGZ_Z4tPdlgJ62x-4dE
 
 Admin Login: Access admin management features. Customer Login: Access
 customer profile and account details.
-
-📁 Project Structure
-
-Bank-Application/
-├── src/
-│   ├── main/java/
-│   │   ├── com/aurionpro/controllers/
-│   │   │   ├── AddNewCustomerController.java
-│   │   │   ├── LoginController.java
-│   │   │   └── ...
-│   │   ├── com/aurionpro/entities/
-│   │   │   ├── Account.java
-│   │   │   ├── Customer.java
-│   │   │   └── ...
-│   └── ...
-├── web/
-│   ├── adminHomePage.jsp
-│   ├── customerHomePage.jsp
-│   ├── login.html
-│   ├── styles/
-│   │   └── style.css
-│   ├── scripts/
-│   │   └── script.js
-├── README.md
-└── pom.xml
 
 📚 Tech Stack
 
