@@ -74,19 +74,15 @@ git clone https://github.com/Gowther03/Bank-Application.git cd
 Bank-Application Setup Database:
 
 Import the provided .sql file into your MySQL database. Update database
-configurations in src/main/resources/application.properties. Run the
-Application:
+configurations in src/main/resources/application.properties. 
 
-mvn clean install mvn tomcat7:run Access in Browser:
+Run the Application:
+mvn clean install mvn tomcat7:run 
 
-Admin: http://localhost:8080/adminHomePage.jsp Customer:
-http://localhost:8080/customerHomePage.jsp
+Access in Browser:
+Login: http://localhost:8080/login.jsp
+Admin: http://localhost:8080/adminHomePage.jsp 
+Customer: http://localhost:8080/customerHomePage.jsp
 
-
-🛡️ Security Considerations
-
-Passwords should be hashed and salted (e.g., using BCrypt). Secure
-sensitive data with HTTPS. Implement proper session handling and
-timeouts.
 
 🙌 Contributors Aashish Mishra.
