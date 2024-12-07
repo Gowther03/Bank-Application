@@ -80,7 +80,7 @@ Run the Application:
 mvn clean install mvn tomcat7:run 
 
 Access in Browser:
-Login: http://localhost:8080/login.jsp
+Login: http://localhost:8080/login.html
 Admin: http://localhost:8080/adminHomePage.jsp 
 Customer: http://localhost:8080/customerHomePage.jsp
 
